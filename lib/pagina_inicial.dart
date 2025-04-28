@@ -20,20 +20,70 @@ class PantallaUno extends StatelessWidget {
       ),
       body: Column(
         children: [
+          SizedBox(
+            height: 30,
+          ),
           Center(
             child: ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla2');
               },
-              child: const Text('Pantalla Dos'),
+              child: const Text('Pantalla Uno'),
             ),
+          ),
+          SizedBox(
+            height: 30,
           ),
           Center(
             child: ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla3');
               },
+              child: const Text('Pantalla Dos'),
+            ),
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/pantalla4');
+              },
               child: const Text('Pantalla Tres'),
+            ),
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/pantalla5');
+              },
+              child: const Text('Pantalla Cuatro'),
+            ),
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/pantalla6');
+              },
+              child: const Text('Pantalla Cinco'),
+            ),
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/pantalla7');
+              },
+              child: const Text('Pantalla Seis'),
             ),
           ),
         ],

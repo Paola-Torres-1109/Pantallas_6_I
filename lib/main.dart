@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:torresrutas/pagina_inicial.dart';
 import 'package:torresrutas/pagina_dos.dart';
+import 'package:torresrutas/pagina_seis.dart';
+import 'package:torresrutas/pagina_siete.dart';
 import 'package:torresrutas/pagina_tres.dart';
+import 'package:torresrutas/pagina_cuatro.dart';
+import 'package:torresrutas/pagina_cinco.dart';
 
 void main() => runApp(MiRutas());
 
@@ -20,6 +24,10 @@ class MiRutas extends StatelessWidget {
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/pantalla2': (context) => const PantallaDos(),
         '/pantalla3': (context) => const PantallaTres(),
+        '/pantalla4': (context) => const PantallaCuatro(),
+        '/pantalla5': (context) => const PantallaCinco(),
+        '/pantalla6': (context) => const PantallaSeis(),
+        '/pantalla7': (context) => const PantallaSiete(),
       },
     );
   }
